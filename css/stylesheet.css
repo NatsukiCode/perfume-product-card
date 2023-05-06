@@ -1,0 +1,67 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .left-box img { 
+    height: 450px;
+    width: 300px;
+  }
+
+  .right-box {
+    background-color: white;
+    height: 450px;
+    width: 300px;
+  }
+
+  heading {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+  }
+
+  .right-box  p {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .new-price {
+    color: rgb(69, 139, 69);
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    
+  }
+
+button {
+  background-color:  rgb(8, 83, 45);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+
+}
